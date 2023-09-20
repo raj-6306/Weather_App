@@ -1,0 +1,32 @@
+#main{
+    text-align:center;
+    border:15px groove #0f0;
+    height:800px;
+    font-family: cursive;
+    border-radius: 10px 50px;
+    padding: 10px;
+    background-color: #FFF;
+}
+input[type=submit]{
+    background-color: #CC3366;
+    border-radius: 10px;
+    color:#FFFFFF;
+    padding: 5px;
+    font-size: 24px;
+    height:70px;
+    width: 200px;
+    font-family: cursive;
+}
+input[type=submit]:hover{
+    background-color: #00FF00;
+}
+input[type=text]{
+    font-family: cursive;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #990000;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather Info App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Weather Info App</h1>
+        <img src="img.png" height="80">
+        <form>
+            <input type="text" id="city-name"  required placeholder="Enter city Name">
+            <input type="image" src="mic.png" height="30" width="30" Onclick="SpeechToText();" autofocus/>&nbsp; <span id="msg"></span> <div id="output"></div>
+            <br>
+            <input type="submit" value="Get Weather">
+        </form>
+        <script src="app.js"></script>
+         <div id="weather-info"></div>
+        
+    </div>
+</body>
+</html>
